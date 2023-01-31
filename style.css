@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.slidebar{
+    background-color: rgb(170, 170, 173);
+    height: 250vw;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    /*font-family: 'Rowdies', cursive;*/
+}
+.slidebar nav{
+    padding: 30px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:30px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    background-color: black;
+    width: 90vw;
+}
+.container{
+    display: flex;
+    background-color: black;
+    
+}
+.mcontainer{
+    display: flex;
+    background-color: black;
+}
+.infoContainer{
+    /*background-color: rgb(9, 119, 11);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 70vh;
+    border-radius: 12px;
+    border: 2px solid black;
+    
+    
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+.hello{
+    font-size: 5em;
+    color: white;
+
+}
+.info{
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Rowdies', cursive;
+    color: white;
+
+}
+.name span{
+    color: red;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.buttons{
+    margin-top: 30px;
+}
+button{
+    padding: 9px 14px;
+    border-radius: 9px;
+    color: aliceblue;
+    background-color: rgb(157, 157, 160);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 3px 15px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(2, 11, 19);
+    background-color: aqua;
+    /*background-color: rgb(109, 109, 234);*/
+}
+.contactform{
+    font-family: 'Libre Baskerville', serif;
+    padding: 0 40px;
+    padding-top:7px;
+    padding-left: 88px;
+}
+h1{
+    font-family: 'Rowdies', cursive;
+    /*font-family: 'Roboto Condensed';*/
+   /* font-family: 'Montserrat',sans-serif;*/
+   /* -webkit-text-fill-color: transparent;*/
+    -webkit-text-stroke: 2px palevioletred;
+    text-align: center;
+    font-size: 40px;
+    padding: 12px 0;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.contactform form div{
+    padding: 15px 0;
+}
+.mb-4 input{
+    width: 25vw;
+    padding: 4px;
+    border-radius: 7px;
+    margin: 7px 6px;
+}
+#emailHelp{
+    font-size: 16px;
+    color: aqua;
+    font-style: italic;
+    margin: 0 5px;
+}
+.mb-5{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
+.mb-5 textarea{
+    width: 50vw;
+    height: 170px;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 17px 10px;
+    font-size: 16px;
+    
+}
+.social{
+    font-size: 30px;
+    height:fit-content;
+    
+}
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin ,.fa-facebook,.fa-telegram{
+    background: #007bb5;
+    color: white;
+}
+.fa {
+    padding: 8px 10px;
+    font-size: 40px;
+    width: 34px;
+    text-decoration: none;
+    margin: 5px 30px;
+    border: 1px solid #007bb5;
+    border-radius: 15px;
+    cursor: pointer;
+}
+a.fa.fa-facebook {
+    padding-right: 1px;
+}
+
+.mb-4,.mb-3{
+    color: aliceblue;
+    font-size: 20px;
+}
+.blogContainer{
+    padding: 24px;
+    padding-left: 34px;
+}
+.blogItem{
+    margin: 20px;
+    color: white;
+    padding: 15px;
+    padding-top: 20px;
+
+}
+.blogItem h3{
+    font-size: 34px;
+    color: rgb(221, 180, 44);
+
+}
+.sm{
+    padding: 8px 7px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgb(157, 157, 160);
+    font-size: 18px;
+    margin: 6px 7px;
+    cursor: pointer;
+}
+body{
+    background-color: black;
+}
+.skillcontainer h2{
+    margin: 8px 5px;
+    font-size: 34px;
+    text-align: center;
+    color: yellow;
+}
+.Info p{
+    font-size: 28px;
+    padding: 12px;
+    padding-left: 75px;
+    color: rgb(54, 213, 211);
+}
+span{
+    color: darkblue;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    padding: 18px;
+    color: aliceblue;
+}
+.skillcontainer{
+    padding: 12px 0;
+    width: 600px;
+    border: 2px solid whitesmoke;
+    height: fit-content;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 7px;
+    color: white;
+}
+.skill{
+    height: 25px;
+    background-color: red;
+    border: 2px;
+}
+.center{
+    padding-left: 180px;
+    color: black;
+}
+.canter{
+    padding-left: 100px;
+    color: black;
+}
+.hundred{
+    width: 600px;
+    background-color: blueviolet;
+}
+.fifth{
+    width:300px;
+    background-color: antiquewhite;
+}
+.t5{
+    width: 150px;;
+}
+.box{
+    align-items: center;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+.slidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.social h3{
+    color: yellow;
+    font-size: 28px;
+    padding: 10px 55px;
+    margin:8px;
+    font-family: 'Libre Baskerville', serif;
+}
+.cross{
+    margin-left: 76px;
+}
+@media (max-width:800px) {
+    .devPic{
+       display: none;
+    }
+    
+}
